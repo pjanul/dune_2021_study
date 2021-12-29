@@ -9,6 +9,7 @@ The project exists in the following folder structure:
 ```
 ├── dune_2021_study
     ├── readme.txt
+    ├── final_report.pdf
     ├── project_main
         ├── scripts
             ├── clean_tweets.py
