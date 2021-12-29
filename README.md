@@ -1,6 +1,8 @@
 # Dune (2021) Reception Analysis
 
-Welcome to the project. Here are a few details to help familarize yourself with everything.
+The goal of this project is to analyze audience reception of the 2021 film "Dune". To do this, 1000 tweets were first collected from Twitter's API. 
+The data was then cleaned and annotated by category and sentiment. The most relevant words in each group were determined via the TF-IDF method, and the results were plotted.
+The code and data used in this project is stored in the `project_main` directory. For more details about guidelines, methods, and analysis, please see `final_report.pdf`.
 
 ## Directory Structure
 
@@ -94,8 +96,8 @@ to run the code. Otherwise, you will get an access error.
 
 
 ```
-	python3 ./scripts/retrieve_tweets.py -i ./data/retrieval_windows.txt -o api_data'.json 
-	python3 ./scripts/clean_tweets.py -i ./data/output.json -o ./data/clean_tweets.csv
+	python3 ./scripts/retrieve_tweets.py -i ./data/retrieval_windows.txt -o api_data.json 
+	python3 ./scripts/clean_tweets.py -i ./data/api_data.json -o ./data/clean_tweets.csv
 	python3 ./scripts/clean_tweets.py -i ./data/output.json -o ./data/clean_tweets.csv
 ```
 
