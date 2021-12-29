@@ -38,7 +38,7 @@ The project exists in the following folder structure:
 The code in this project can be be split into 3 categories: tweet collection/cleaning, TF-IDF calculation, and plotting. 
 Below is an explanation/tutorial and a description of each script. 
 When running the script in the command line, make sure to use the appropriate path to each file. 
-The commands should run anywhere, but it is best if they are run in the "project_main" directory.
+The commands can run anywhere, but it is best if they are run in the "project_main" directory.
 
 
 
