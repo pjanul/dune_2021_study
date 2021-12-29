@@ -57,17 +57,17 @@ def main():
     # ====================================== Customize this if need be ================================================ #
     
     # Create the headers for the API request. 
-    headers = connect_to_twitter("AAAAAAAAAAAAAAAAAAAAAJA2WwEAAAAAbUlKsSMoVshUYuq2HEkNhNP4jzs%3DjKhF6Ll6m6n19K5d4TZolri0uyxfcMLeFEUbjKznbzPjHwrTiQ")
+    headers = connect_to_twitter("INSERT BEARER TOKEN HERE")
     
     
     # Define appropriate time intervals. Each interval will collect exactly 100 tweets
-    time_intervals = ['2021-12-04T00:00:00Z', '2021-12-04T06:00:00Z', '2021-12-04T12:00:00Z', '2021-12-04T18:00:00Z',
-                  '2021-12-05T00:00:00Z', '2021-12-05T08:00:00Z', '2021-12-05T16:00:00Z',
-                  '2021-12-06T00:00:00Z', '2021-12-06T08:00:00Z', '2021-12-06T18:00:00Z', 
-                  '2021-12-07T00:00:00Z'] 
+    #time_intervals = ['2021-12-04T00:00:00Z', '2021-12-04T06:00:00Z', '2021-12-04T12:00:00Z', '2021-12-04T18:00:00Z',
+    #              '2021-12-05T00:00:00Z', '2021-12-05T08:00:00Z', '2021-12-05T16:00:00Z',
+    #              '2021-12-06T00:00:00Z', '2021-12-06T08:00:00Z', '2021-12-06T18:00:00Z', 
+    #              '2021-12-07T00:00:00Z'] 
 
     # Only 2 intervals which decreases the number of requests we make; useful for testing purposes
-    time_intervals_short = ['2021-12-04T00:00:00Z', '2021-12-05T06:00:00Z', '2021-12-06T12:00:00Z']
+    #time_intervals_short = ['2021-12-04T00:00:00Z', '2021-12-05T06:00:00Z', '2021-12-06T12:00:00Z']
     
     # ================================================================================================================ #
     
